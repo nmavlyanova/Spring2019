@@ -1,0 +1,45 @@
+package day39;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListWithMethods {
+
+	public static void main(String[] args) {
+
+		List<String> lst= new ArrayList<>();
+		lst.add("apple");
+		lst.add("orange");
+		lst.add("banana");
+		lst.add("kiwi");
+		printItems(lst);
+		
+		System.out.println(integerLst(7));
+		System.out.println(integerLst(17));
+		System.out.println(integerLst(70));
+		
+	}
+	
+	public static void printItems(List<String> strLst) {
+		
+		for (int i = 0; i < strLst.size(); i++) {
+			System.out.print(strLst.get(i)+ "-");
+			
+		}
+		System.out.println();
+		
+	}
+	//create a method that accept a number as ending point 
+	//and return List of Integer from 1 - that number
+	public static List<Integer> integerLst(int num){
+	
+		ArrayList<Integer> numList=new ArrayList<>();
+		
+		for (int i = 1; i <=num; i++) {
+			 numList.add(i);
+			 
+		}
+		return numList;
+	}
+
+}

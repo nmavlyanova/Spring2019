@@ -1,0 +1,18 @@
+package day55;
+
+public abstract class AbstarctClassWithNoAbstarctMethod {
+
+	/*
+	 * ABSTRACT METHOD MUST BE IN ABSTRACT CLASS
+	 * 
+	 * HOWEVER
+	 * AN ABSTRACT CLASS DOES NOT HAVE TO HAVE ABSTRACT METHOD
+	 * 
+	 * THE ONLY EFFECT OF MAKING THIS ABSTRACT AT THIS MOMENT IS
+	 * TO PREVENT OBJECT BEING CREATED OUT OF THIS CLASS
+	 * 
+	 * 
+	 */
+	
+	
+}
